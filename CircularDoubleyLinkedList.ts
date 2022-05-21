@@ -78,22 +78,27 @@ export default class CircularDoubleyLinkedList {
         return data;
     }
 
+    // O(1)
     public next(): void {
         this.current = this.current.next;
     }
 
+    // O(1)
     public prev() : void {
         this.current = this.current.prev;
     }
 
+    // O(1)
     public getCurrent(): string  {
         return this.current.data;
     }
 
+    // O(1)
     public getHead(): string {
         return this.head ? this.head.data : "";
     }
 
+    // O(n)
     public numOfItems(): number {
         if (!this.head) {
             console.log('no more items');
@@ -108,6 +113,7 @@ export default class CircularDoubleyLinkedList {
         return counter;
     }
 
+    // O(n)
     public toString(): string {
         if (!this.head) {
             return EMPTY_LIST;
