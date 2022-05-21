@@ -1,6 +1,6 @@
 # CircularDoubleyLinkedList
-LinkedList that is doubley linked, and circular.
 
+LinkedList that is doubley linked, and circular.
 
 To run tests:
 
@@ -8,7 +8,7 @@ To run tests:
 npm run test
 ```
 
-No need to re-compile with 'tsc'. Sourcemap set to true.
+No need to re-compile with 'tsc'. 
 
 In index.ts, simply 
 
